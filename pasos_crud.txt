@@ -1,0 +1,28 @@
+comandos usados para la creacion del CRUD:
+
+*Creara el proyecto de laravel
+
+composer create-project --prefer-dist laravel/laravel crud "5.5.*"
+
+*creacion de la migracion
+
+php artisan make:migration create_biodatas_table
+
+*Migracion de la tabla a la base de datos
+
+php artisan migrate
+
+*creacion del login
+
+php artisan make:auth
+
+*creacion del model
+
+php artisan make:model Biodata
+
+*creacion del controlador
+
+php artisan make:controller BiodataController
+
+
+
